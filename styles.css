@@ -44,7 +44,7 @@ html {
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
-    text-overflow: clip;
+    overflow-wrap: break-word;
 }
 
 #aliveCircle {
