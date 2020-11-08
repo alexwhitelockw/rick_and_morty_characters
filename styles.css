@@ -41,8 +41,9 @@ html {
 }
 
 .details {
-    padding-left: 20px;
-    word-wrap: break-word;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 #aliveCircle {
