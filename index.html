@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9480d56e5c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Rick and Morty Character API</h1>
+        <h3>Use the <a href="https://rickandmortyapi.com/">Rick and Morty API</a> to randomly explore character profiles (name, species, and status).</h3>
+        <form>
+            <button type="click" id="randomCharacter">Randomise</button>
+        </form>
+    </div>
+    <div class="container" id="cardArea"></div>
+    <script type="text/javascript" src="apiCall.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

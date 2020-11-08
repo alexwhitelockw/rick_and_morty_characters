@@ -1,0 +1,57 @@
+html {
+    font-family: "Apple SD Gothic Neo";
+}
+
+.header {
+    text-align: center;
+    padding: 60px;
+}
+
+#randomCharacter {
+    background-color: #b7f0e8;
+    border: 2px solid #b7f0e8;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding: 20px 40px 20px 40px;
+}
+
+#randomCharacter:active {
+    background-color: #fffe86;
+    border: 2px solid #fffe86;
+}
+
+.container {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px darkgray;
+    margin: 10px;
+    width: 70%;
+}
+
+.card img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.details {
+    padding-left: 20px;
+}
+
+#aliveCircle {
+    color: green;
+}
+
+#deadCircle {
+    color: red;
+}
+
+#unknownCircle {
+    color: gray;
+}
